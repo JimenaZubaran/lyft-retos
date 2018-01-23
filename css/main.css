@@ -1,0 +1,102 @@
+.text{
+font-family: 'Dosis', sans-serif;
+}
+
+.splash, .finish{
+  background-image: url("./../assets/images/lyft.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content{
+  background-image: url("./../assets/images/content.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+  width: 100vw;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+
+.log-in, .sing-up {
+  background-color: transparent;
+  position: relative;
+  left: 25vw;
+  top: 35vh;
+  padding: 5%;
+  color: #FFF;
+  margin: 1%;
+  border: 3px solid #FFF;
+  font-size:3vh;
+}
+
+.add{
+  text-align: center;
+}
+
+.previeus{
+  font-size: 5vh;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.add-phone{
+  display: inline-block;
+  margin-right: 35vw;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.add{
+font-size: 2vh;
+}
+
+.next-button{
+  margin: 10vh;
+  background-color: #e8e3e3;
+  color: grey;
+  font-size: 3vh;
+  width: 60%;
+  padding: 5%;
+}
+
+.add-text{
+  padding: 6%;
+}
+
+.verify-phone{
+  display: inline-block;
+  margin-right: 20vw;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.verify-button {
+  display: block;
+  background-color: #e8e3e3;
+  color: grey;
+  font-size: 2vh;
+  width: 30%;
+  padding: 3%;
+  margin: auto;
+}
+
+.input-group > input{
+  width: 50%;
+  height: 8vh;
+  margin: 2%;
+  border: 1px solid #000;
+  font-size: 2vh;
+}
